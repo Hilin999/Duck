@@ -16,24 +16,24 @@ public class DuckTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//MaddlardDuck
-		  Duck mallard = new MallardDuck();
-		  mallard.display();
-		  mallard.swim();
+         //MaddlardDuck
+              Duck mallard = new MallardDuck();
+              mallard.display();
+              mallard.swim();
 	      mallard.setQuackBehavior(new MuteQuack());
 	      mallard.setFlyBehavior(new FlyWithRocket());
 	      mallard.performQuack();
 	      mallard.performFly();
-	    //RubberDuck
+	 //RubberDuck
 	      Duck rubber=new RubberDuck();
-          rubber.display();
-          rubber.swim();
-          rubber.setQuackBehavior(new Squeak());
-          rubber.setFlyBehavior(new FlyNoWay());
-          rubber.performFly();
-          rubber.performQuack();
+              rubber.display();
+              rubber.swim();
+              rubber.setQuackBehavior(new Squeak());
+              rubber.setFlyBehavior(new FlyNoWay());
+              rubber.performFly();
+              rubber.performQuack();
      
-          //RedheadDuck
+         //RedheadDuck
 	      Duck Redhead=new RedheadDuck();
 	      Redhead.display();
 	      Redhead.swim();
